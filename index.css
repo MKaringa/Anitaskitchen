@@ -15,7 +15,7 @@ body{
     height: 49.3%;
     opacity: 0.4;
 }
-
+.
 
 .logo{
     align-items: center;
@@ -77,3 +77,49 @@ body{
     color: white;
     font-size: large;
 }
+.row1{
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 400px;
+    width: 500px;
+    border: none;
+    box-shadow: 2px 2px 5px grey;
+    padding: 10px;
+    position: relative;
+    left: 170px;
+    bottom: 150px;
+    
+  }
+  .column1{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 5px black;
+    height: 400px;
+    width: 320px;
+    float: right;
+    position: relative;
+    bottom: 550px;
+    right: 300px;
+  }
+  .gallery{
+    color: #F15A29;
+    border: 3px solid #F15A29;
+    text-align: center;
+    width:170px ;
+    padding: 10px;
+  }
+  .row2{
+    float: right;
+    border:none ;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px grey;
+    padding: 10px;
+    height: fit-content;
+    width: fit-content;
+    height: 400px;
+    position: relative;
+    left: 0px;
+  }
