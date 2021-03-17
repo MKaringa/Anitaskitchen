@@ -1,0 +1,79 @@
+body{
+ 
+    background-image: url(./images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 400px;
+    background-position: center top;
+}
+
+#color-overlay{
+    background-color: #F15A29;
+   
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 49.3%;
+    opacity: 0.4;
+}
+
+
+.logo{
+    align-items: center;
+    display: block;
+    margin: auto;
+}
+.logo>p{
+    display: block;
+    text-align: center;
+    color: white;
+    justify-content: center;
+}
+.breakfast{
+    text-align: center;
+    color: white;
+    position: relative;
+    margin-top: 20px;
+    float: left;
+}
+.lunch{
+    float: inner;
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+
+}
+.dinner{
+    float: right;
+}
+.container{
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.container > div{
+    width: 400px;
+    height: 200px;
+    margin-left: 10px;
+    align-items: center;
+}
+.text1{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    margin-left: 40px;
+}
+.text2{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    margin-left: 40px;
+    color: white;
+}
+.text3{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    margin-left: 40px;
+    color: white;
+    font-size: large;
+}
